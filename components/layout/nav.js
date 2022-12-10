@@ -16,7 +16,7 @@ function Nav() {
             <Link href="/posts">Brows all Articles</Link>
           </li>
           <li>
-            <Link href="/contact">Contact Gero</Link>
+            <Link href="/contact">Contact me</Link>
           </li>
         </ul>
       </nav>
