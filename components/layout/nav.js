@@ -13,10 +13,10 @@ function Nav() {
       <nav>
         <ul>
           <li>
-            <Link href="/posts">Brows all Articles</Link>
+            <Link href="/posts">全ての記事</Link>
           </li>
           <li>
-            <Link href="/contact">Contact me</Link>
+            <Link href="/contact">問い合わせ</Link>
           </li>
         </ul>
       </nav>

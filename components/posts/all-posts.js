@@ -4,7 +4,7 @@ import PostsGrid from "./posts-grid";
 function AllPosts({ posts }) {
   return (
     <section className={classes.posts}>
-      <h1>All Posts</h1>
+      <h1>全ての記事</h1>
       <PostsGrid posts={posts} />
     </section>
   );

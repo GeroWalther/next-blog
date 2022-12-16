@@ -7,7 +7,7 @@ module.exports = (phase) => {
         mongodb_username: "Schnecke45",
         mongodb_password: "Schnecke45",
         mongodb_clustername: "cluster0",
-        mongodb_databasename: "my-site-dev",
+        mongodb_databasename: "ero-blog-dev",
       },
     };
   }
@@ -16,7 +16,7 @@ module.exports = (phase) => {
       mongodb_username: "Schnecke45",
       mongodb_password: "Schnecke45",
       mongodb_clustername: "cluster0",
-      mongodb_databasename: "my-site",
+      mongodb_databasename: "ero-blog",
     },
   };
 };

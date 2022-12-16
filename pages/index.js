@@ -9,10 +9,10 @@ function HomePage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Programmning Dog Blog</title>
+        <title>艶っぽいブログ </title>
         <meta
           name="description"
-          content="I post about programming and web development"
+          content="艶っぽいブログ。僕なりに面白く書いていた官能小説を皆に楽しく読書させていだけたら、幸いです。"
         />
       </Head>
       <Hero />

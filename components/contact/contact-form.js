@@ -74,7 +74,7 @@ function ContactForm() {
     notification = {
       status: "success",
       title: "Success!",
-      message: "Message sent successfully!!!!!",
+      message: "Message sent successfully!!!!",
     };
   }
 
@@ -88,11 +88,11 @@ function ContactForm() {
 
   return (
     <section className={classes.contact}>
-      <h1>How can I help you?</h1>
+      <h1>ご感想や改善点、提出こちらへ</h1>
       <form className={classes.form} onSubmit={sendMessageHandler}>
         <div className={classes.controls}>
           <div className={classes.control}>
-            <label htmlFor="email">Your Email</label>
+            <label htmlFor="email">メール</label>
             <input
               type="email"
               id="email"
@@ -102,7 +102,7 @@ function ContactForm() {
             />
           </div>
           <div className={classes.control}>
-            <label htmlFor="name">Your Name</label>
+            <label htmlFor="name">名前</label>
             <input
               type="text"
               id="name"
@@ -113,7 +113,7 @@ function ContactForm() {
           </div>
         </div>
         <div className={classes.control}>
-          <label htmlFor="message">Your Message</label>
+          <label htmlFor="message">メッセージ</label>
           <textarea
             id="message"
             rows="5"
@@ -124,7 +124,7 @@ function ContactForm() {
         </div>
 
         <div className={classes.actions}>
-          <button>Send Message</button>
+          <button>送信</button>
         </div>
       </form>
       {notification && (

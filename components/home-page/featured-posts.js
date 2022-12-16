@@ -4,7 +4,7 @@ import PostsGrid from "../posts/posts-grid";
 function FeaturedPosts({ posts }) {
   return (
     <section className={classes.latest}>
-      <h2>Featured Posts</h2>
+      <h2>最近盛り上がる小説</h2>
       <PostsGrid posts={posts} />
     </section>
   );

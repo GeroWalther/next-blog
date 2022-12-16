@@ -4,7 +4,7 @@ import Layout from "../components/layout/layout";
 import { Fragment } from "react";
 
 function MyApp({ Component, pageProps }) {
-  const prevImage = `images/posts/text-sep-by-dashes/nextjs-is-great.png`;
+  const prevImage = `images/site/cherry.png`;
 
   //${window.location.origin}/
 

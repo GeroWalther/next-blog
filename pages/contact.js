@@ -6,10 +6,10 @@ function Contact() {
   return (
     <Fragment>
       <Head>
-        <title>Contact Me</title>
+        <title>問い合わせ</title>
         <meta
           name="description"
-          content="Contact Gero for any kind of inquiries"
+          content="問い合わせ ご感想や改善点、提出こちらへ"
         />
       </Head>
       <ContactForm />

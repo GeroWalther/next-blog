@@ -6,16 +6,15 @@ function Hero() {
     <section className={classes.hero}>
       <div className={classes.image}>
         <Image
-          src="/images/site/golden.jpg"
-          alt="An image showing a golden retriever"
+          src="/images/site/cherry.png"
+          alt="A cherry blossom image"
           width={300}
           height={300}
         />
       </div>
-      <h1>Hi, I am the programming Golden Retriever</h1>
+      <h1>艶っぽい小説が好きなブロガーです。</h1>
       <p>
-        I blog about web development - especially frontend frameworks like React
-        and Next.
+        僕なりに面白く書いていた官能小説を皆に楽しく読書させていだけたら、幸いです。
       </p>
     </section>
   );
