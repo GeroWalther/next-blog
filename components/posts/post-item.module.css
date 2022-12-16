@@ -1,6 +1,6 @@
 .post {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-  background-color: var(--color-grey-850);
+  background-color: var(--color-grey-800);
   text-align: center;
 }
 
@@ -26,16 +26,14 @@
 
 .content h3 {
   margin: var(--size-2) 0;
-  font-size: var(--size-4);
+  font-size: var(--size-6);
 }
 
 .content time {
   font-style: italic;
-  font-size: var(--size-3);
   color: var(--color-grey-300);
 }
 
 .content p {
   line-height: var(--size-6);
-  font-size: var(--size-3);
 }

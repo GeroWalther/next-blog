@@ -8,8 +8,11 @@ function AllPostsPage({ allPosts }) {
   return (
     <Fragment>
       <Head>
-        <title>全ての記事</title>
-        <meta name="description" content="全ての記事 艶っぽい小説 官能小説" />
+        <title>All Posts</title>
+        <meta
+          name="description"
+          content="A list of all programming-related tutoials and posts"
+        />
       </Head>
       <AllPosts posts={allPosts} />
     </Fragment>
